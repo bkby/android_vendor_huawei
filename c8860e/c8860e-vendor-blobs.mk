@@ -123,7 +123,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8860e/proprietary/bin/mm-qcamera-testsuite-client:system/bin/mm-qcamera-testsuite-client \
     vendor/huawei/c8860e/proprietary/bin/mm-venc-omx-test720p:system/bin/mm-venc-omx-test720p \
     vendor/huawei/c8860e/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
-    vendor/huawei/c8860e/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
-    vendor/huawei/c8860e/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
+#    vendor/huawei/c8860e/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+#    vendor/huawei/c8860e/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
 #    vendor/huawei/c8860e/proprietary/lib/hw/camera.msm7630_surf.so:system/lib/hw/camera.msm7630_surf.so \
 

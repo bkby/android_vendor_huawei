@@ -72,6 +72,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800pro/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
 	vendor/huawei/u8800pro/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
 	vendor/huawei/u8800pro/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
+	vendor/huawei/u8800pro/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
 	vendor/huawei/u8800pro/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
 	vendor/huawei/u8800pro/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
 	vendor/huawei/u8800pro/proprietary/lib/libdsprofile.so:system/lib/libdsprofile.so \
@@ -105,6 +106,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800pro/proprietary/lib/libril.so:obj/lib/libril.so \
 	vendor/huawei/u8800pro/proprietary/lib/libwiperjni_v01.so:system/lib/libwiperjni_v01.so \
 	vendor/huawei/u8800pro/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
+	vendor/huawei/u8800pro/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
 	vendor/huawei/u8800pro/proprietary/bin/cnd:system/bin/cnd \
 	vendor/huawei/u8800pro/proprietary/lib/hw/lights.msm7630_surf.so:system/lib/hw/lights.msm7630_surf.so \
     vendor/huawei/u8800pro/proprietary/bin/mm-abl-daemon:system/bin/mm-abl-daemon \
@@ -113,6 +115,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/bin/mm-qcamera-testsuite-client:system/bin/mm-qcamera-testsuite-client \
     vendor/huawei/u8800pro/proprietary/bin/mm-venc-omx-test720p:system/bin/mm-venc-omx-test720p \
     vendor/huawei/u8800pro/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
-    vendor/huawei/u8800pro/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
-	vendor/huawei/u8800pro/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
-	vendor/huawei/u8800pro/proprietary/lib/hw/camera.msm7630_surf.so:system/lib/hw/camera.msm7630_surf.so \
+#    vendor/huawei/u8800pro/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+#	vendor/huawei/u8800pro/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
+#	vendor/huawei/u8800pro/proprietary/lib/hw/camera.msm7630_surf.so:system/lib/hw/camera.msm7630_surf.so \
+
