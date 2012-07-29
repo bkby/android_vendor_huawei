@@ -83,7 +83,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8860e/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/huawei/c8860e/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/huawei/c8860e/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
-    vendor/huawei/c8860e/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/huawei/c8860e/proprietary/lib/libdsprofile.so:system/lib/libdsprofile.so \
     vendor/huawei/c8860e/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/huawei/c8860e/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
@@ -108,8 +107,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8860e/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
     vendor/huawei/c8860e/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
     vendor/huawei/c8860e/proprietary/lib/libOmxQcelpHwDec.so:system/lib/libOmxQcelpHwDec.so \
-    vendor/huawei/c8860e/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
-    vendor/huawei/c8860e/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
     vendor/huawei/c8860e/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/huawei/c8860e/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/huawei/c8860e/proprietary/lib/libril.so:obj/lib/libril.so \
@@ -123,6 +120,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8860e/proprietary/bin/mm-qcamera-testsuite-client:system/bin/mm-qcamera-testsuite-client \
     vendor/huawei/c8860e/proprietary/bin/mm-venc-omx-test720p:system/bin/mm-venc-omx-test720p \
     vendor/huawei/c8860e/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
+#    vendor/huawei/c8860e/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
+#     vendor/huawei/c8860e/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
+#    vendor/huawei/c8860e/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
 #    vendor/huawei/c8860e/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
 #    vendor/huawei/c8860e/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
 #    vendor/huawei/c8860e/proprietary/lib/hw/camera.msm7630_surf.so:system/lib/hw/camera.msm7630_surf.so \

@@ -20,6 +20,15 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800pro/proprietary/lib/libhwrpc.so:obj/lib/libhwrpc.so
 
 PRODUCT_COPY_FILES += \
+	vendor/huawei/u8800pro/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
+	vendor/huawei/u8800pro/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
+	vendor/huawei/u8800pro/proprietary/lib/libOmxAmrDec.so:system/lib/libOmxAmrDec.so \
+	vendor/huawei/u8800pro/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
+#	vendor/huawei/u8800pro/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
+#	vendor/huawei/u8800pro/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
+#	vendor/huawei/u8800pro/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
+	
+PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800pro/proprietary/bin/qmuxd:system/bin/qmuxd \
 	vendor/huawei/u8800pro/proprietary/bin/compassd:system/bin/compassd \
 	vendor/huawei/u8800pro/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -74,7 +83,6 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800pro/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
 	vendor/huawei/u8800pro/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
 	vendor/huawei/u8800pro/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
-	vendor/huawei/u8800pro/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
 	vendor/huawei/u8800pro/proprietary/lib/libdsprofile.so:system/lib/libdsprofile.so \
 	vendor/huawei/u8800pro/proprietary/lib/libgemini.so:system/lib/libgemini.so \
 	vendor/huawei/u8800pro/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
@@ -86,11 +94,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800pro/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
 	vendor/huawei/u8800pro/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
 	vendor/huawei/u8800pro/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-	vendor/huawei/u8800pro/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
-	vendor/huawei/u8800pro/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
 	vendor/huawei/u8800pro/proprietary/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
-	vendor/huawei/u8800pro/proprietary/lib/libOmxAmrDec.so:system/lib/libOmxAmrDec.so \
-	vendor/huawei/u8800pro/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
 	vendor/huawei/u8800pro/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
 	vendor/huawei/u8800pro/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
 	vendor/huawei/u8800pro/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
@@ -99,8 +103,6 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800pro/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
 	vendor/huawei/u8800pro/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
 	vendor/huawei/u8800pro/proprietary/lib/libOmxQcelpHwDec.so:system/lib/libOmxQcelpHwDec.so \
-	vendor/huawei/u8800pro/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
-	vendor/huawei/u8800pro/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
 	vendor/huawei/u8800pro/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
 	vendor/huawei/u8800pro/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/huawei/u8800pro/proprietary/lib/libril.so:obj/lib/libril.so \
