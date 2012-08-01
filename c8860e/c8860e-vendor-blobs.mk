@@ -120,6 +120,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8860e/proprietary/bin/mm-qcamera-testsuite-client:system/bin/mm-qcamera-testsuite-client \
     vendor/huawei/c8860e/proprietary/bin/mm-venc-omx-test720p:system/bin/mm-venc-omx-test720p \
     vendor/huawei/c8860e/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
+    vendor/huawei/c8860e/proprietary/lib/libcontrast.so:system/lib/libcontrast.so
 #    vendor/huawei/c8860e/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
 #     vendor/huawei/c8860e/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
 #    vendor/huawei/c8860e/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
@@ -127,3 +128,31 @@ PRODUCT_COPY_FILES += \
 #    vendor/huawei/c8860e/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
 #    vendor/huawei/c8860e/proprietary/lib/hw/camera.msm7630_surf.so:system/lib/hw/camera.msm7630_surf.so \
 
+
+PRODUCT_COPY_FILES += \
+    vendor/huawei/c8860e/proprietary/bin/mm-abl-test:system/bin/mm-abl-test \
+    vendor/huawei/c8860e/proprietary/bin/mm-adec-omxaac-test:system/bin/mm-adec-omxaac-test \
+    vendor/huawei/c8860e/proprietary/bin/mm-adec-omxadpcm-test:system/bin/mm-adec-omxadpcm-test \
+    vendor/huawei/c8860e/proprietary/bin/mm-adec-omxamr-test:system/bin/mm-adec-omxamr-test \
+    vendor/huawei/c8860e/proprietary/bin/mm-adec-omxamrwb-test:system/bin/mm-adec-omxamrwb-test \
+    vendor/huawei/c8860e/proprietary/bin/mm-adec-omxevrc-test:system/bin/mm-adec-omxevrc-test \
+    vendor/huawei/c8860e/proprietary/bin/mm-adec-omxmp3-test:system/bin/mm-adec-omxmp3-test \
+    vendor/huawei/c8860e/proprietary/bin/mm-adec-omxQcelp13-test:system/bin/mm-adec-omxQcelp13-test \
+    vendor/huawei/c8860e/proprietary/bin/mm-adec-omxQcelpHw-test:system/bin/mm-adec-omxQcelpHw-test \
+    vendor/huawei/c8860e/proprietary/bin/mm-adec-omxvam-test:system/bin/mm-adec-omxvam-test \
+    vendor/huawei/c8860e/proprietary/bin/mm-adec-omxwma-test:system/bin/mm-adec-omxwma-test \
+    vendor/huawei/c8860e/proprietary/bin/mm-aenc-omxaac-test:system/bin/mm-aenc-omxaac-test \
+    vendor/huawei/c8860e/proprietary/bin/mm-aenc-omxamr-test:system/bin/mm-aenc-omxamr-test \
+    vendor/huawei/c8860e/proprietary/bin/mm-aenc-omxevrc-test:system/bin/mm-aenc-omxevrc-test \
+    vendor/huawei/c8860e/proprietary/bin/mm-aenc-omxqcelp13-test:system/bin/mm-aenc-omxqcelp13-test \
+    vendor/huawei/c8860e/proprietary/bin/mm-audio-alsa-test:system/bin/mm-audio-alsa-test \
+    vendor/huawei/c8860e/proprietary/bin/mm-audio-ctrl-test:system/bin/mm-audio-ctrl-test \
+    vendor/huawei/c8860e/proprietary/bin/mm-audio-mvs-test:system/bin/mm-audio-mvs-test \
+    vendor/huawei/c8860e/proprietary/bin/mm-audio-voem_if-test:system/bin/mm-audio-voem_if-test \
+    vendor/huawei/c8860e/proprietary/bin/mm-jpeg-dec-test:system/bin/mm-jpeg-dec-test \
+    vendor/huawei/c8860e/proprietary/bin/mm-jpeg-enc-test:system/bin/mm-jpeg-enc-test \
+    vendor/huawei/c8860e/proprietary/bin/mm-qcamera-test:system/bin/mm-qcamera-test \
+    vendor/huawei/c8860e/proprietary/bin/mm-vdec-omx-test:system/bin/mm-vdec-omx-test \
+    vendor/huawei/c8860e/proprietary/bin/mm-video-driver-test:system/bin/mm-video-driver-test \
+    vendor/huawei/c8860e/proprietary/bin/mm-video-encdrv-test:system/bin/mm-video-encdrv-test \
+    vendor/huawei/c8860e/proprietary/bin/test_gemini:system/bin/test_gemini
