@@ -84,16 +84,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8860e/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/huawei/c8860e/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     vendor/huawei/c8860e/proprietary/lib/libdsprofile.so:system/lib/libdsprofile.so \
-    vendor/huawei/c8860e/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/huawei/c8860e/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/huawei/c8860e/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
-    vendor/huawei/c8860e/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-    vendor/huawei/c8860e/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/huawei/c8860e/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
-    vendor/huawei/c8860e/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
     vendor/huawei/c8860e/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
     vendor/huawei/c8860e/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
-    vendor/huawei/c8860e/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/huawei/c8860e/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/huawei/c8860e/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
     vendor/huawei/c8860e/proprietary/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
@@ -116,16 +110,21 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8860e/proprietary/lib/hw/lights.msm7630_surf.so:system/lib/hw/lights.msm7630_surf.so \
     vendor/huawei/c8860e/proprietary/bin/mm-abl-daemon:system/bin/mm-abl-daemon \
     vendor/huawei/c8860e/proprietary/bin/mm-omx-devmgr:system/bin/mm-omx-devmgr \
-    vendor/huawei/c8860e/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/huawei/c8860e/proprietary/bin/mm-qcamera-testsuite-client:system/bin/mm-qcamera-testsuite-client \
     vendor/huawei/c8860e/proprietary/bin/mm-venc-omx-test720p:system/bin/mm-venc-omx-test720p \
-    vendor/huawei/c8860e/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
     vendor/huawei/c8860e/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
     vendor/huawei/c8860e/proprietary/lib/hw/hwcomposer.msm7630_surf.so:system/lib/hw/hwcomposer.msm7630_surf.so \
 #    vendor/huawei/c8860e/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
-#     vendor/huawei/c8860e/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
+#    vendor/huawei/c8860e/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
 #    vendor/huawei/c8860e/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
 #    vendor/huawei/c8860e/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
 #    vendor/huawei/c8860e/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
 #    vendor/huawei/c8860e/proprietary/lib/hw/camera.msm7630_surf.so:system/lib/hw/camera.msm7630_surf.so \
-
+#    vendor/huawei/c8860e/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+#    vendor/huawei/c8860e/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
+#    vendor/huawei/c8860e/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+#    vendor/huawei/c8860e/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+#    vendor/huawei/c8860e/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+#    vendor/huawei/c8860e/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
+#    vendor/huawei/c8860e/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
+#    vendor/huawei/c8860e/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
