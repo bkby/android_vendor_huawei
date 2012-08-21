@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8860/proprietary/bin/oem_rpc_svc:system/bin/oem_rpc_svc \
     vendor/huawei/u8860/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/huawei/u8860/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-    vendor/huawei/u8860/proprietary/lib/libshareril.so:system/lib/libshareril.so \
     vendor/huawei/u8860/proprietary/lib/libuim.so:system/lib/libuim.so \
     vendor/huawei/u8860/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/huawei/u8860/proprietary/lib/libauth.so:system/lib/libauth.so \
@@ -113,18 +112,4 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8860/proprietary/bin/mm-qcamera-testsuite-client:system/bin/mm-qcamera-testsuite-client \
     vendor/huawei/u8860/proprietary/bin/mm-venc-omx-test720p:system/bin/mm-venc-omx-test720p \
     vendor/huawei/u8860/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
-    vendor/huawei/u8860/proprietary/lib/hw/hwcomposer.msm7630_surf.so:system/lib/hw/hwcomposer.msm7630_surf.so \
-#    vendor/huawei/u8860/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
-#    vendor/huawei/u8860/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
-#    vendor/huawei/u8860/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
-#    vendor/huawei/u8860/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
-#    vendor/huawei/u8860/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
-#    vendor/huawei/u8860/proprietary/lib/hw/camera.msm7630_surf.so:system/lib/hw/camera.msm7630_surf.so \
-#    vendor/huawei/u8860/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-#    vendor/huawei/u8860/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
-#    vendor/huawei/u8860/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-#    vendor/huawei/u8860/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-#    vendor/huawei/u8860/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-#    vendor/huawei/u8860/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
-#    vendor/huawei/u8860/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
-#    vendor/huawei/u8860/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/huawei/u8860/proprietary/lib/hw/hwcomposer.msm7630_surf.so:system/lib/hw/hwcomposer.msm7630_surf.so
