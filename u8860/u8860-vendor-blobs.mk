@@ -33,6 +33,11 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8860/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/huawei/u8860/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo
 
+#  we can use source build
+#PRODUCT_COPY_FILES += \
+#    vendor/huawei/u8860/proprietary/lib/libril.so:system/lib/libril.so \
+#    vendor/huawei/u8860/proprietary/lib/libril.so:obj/lib/libril.so \
+
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8860/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/u8860/proprietary/bin/compassd:system/bin/compassd \
@@ -101,8 +106,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8860/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
     vendor/huawei/u8860/proprietary/lib/libOmxQcelpHwDec.so:system/lib/libOmxQcelpHwDec.so \
     vendor/huawei/u8860/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
-    vendor/huawei/u8860/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/huawei/u8860/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/huawei/u8860/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/huawei/u8860/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/huawei/u8860/proprietary/bin/cnd:system/bin/cnd \
