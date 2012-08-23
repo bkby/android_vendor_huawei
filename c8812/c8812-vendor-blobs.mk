@@ -16,14 +16,11 @@
 
 
 PRODUCT_COPY_FILES += \
-    vendor/huawei/c8812/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
-    vendor/huawei/c8812/proprietary/bin/rild:system/bin/rild \
-    vendor/huawei/c8812/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-#    vendor/huawei/c8812/proprietary/lib/libril.so:system/lib/libril.so \
-#    vendor/huawei/c8812/proprietary/lib/libril.so:obj/lib/libril.so \
+    vendor/huawei/c8812/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so
 
 PRODUCT_COPY_FILES += \
     vendor/huawei/c8812/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/huawei/c8812/proprietary/bin/rild:system/bin/rild \
     vendor/huawei/c8812/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/huawei/c8812/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/huawei/c8812/proprietary/lib/libdiag.so:system/lib/libdiag.so \
@@ -40,7 +37,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8812/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/huawei/c8812/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/huawei/c8812/proprietary/lib/libqueue.so:system/lib/libqueue.so \
+    vendor/huawei/c8812/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/huawei/c8812/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/huawei/c8812/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
+    vendor/huawei/c8812/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/huawei/c8812/proprietary/lib/libshareril.so:system/lib/libshareril.so \
     vendor/huawei/c8812/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/huawei/c8812/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \

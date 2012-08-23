@@ -18,10 +18,10 @@
 PRODUCT_COPY_FILES += \
     vendor/huawei/c8860e/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/huawei/c8860e/proprietary/lib/libhwrpc.so:obj/lib/libhwrpc.so \
+    vendor/huawei/c8860e/proprietary/lib/libhwnv.so:system/lib/libhwnv.so \
     vendor/huawei/c8860e/proprietary/lib/liboeminfo.so:system/lib/liboeminfo.so \
     vendor/huawei/c8860e/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
-    vendor/huawei/c8860e/proprietary/lib/libloc-rpc.so:system/lib/libloc-rpc.so \
-    vendor/huawei/c8860e/proprietary/lib/libqdi.so:system/lib/libqdi.so
+    vendor/huawei/c8860e/proprietary/lib/libloc-rpc.so:system/lib/libloc-rpc.so
 
 PRODUCT_COPY_FILES += \
     vendor/huawei/c8860e/proprietary/bin/akmd8962:system/bin/akmd8962 \
@@ -42,8 +42,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8860e/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/c8860e/proprietary/bin/oem_rpc_svc:system/bin/oem_rpc_svc \
     vendor/huawei/c8860e/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/huawei/c8860e/proprietary/lib/libpdapi.so:system/lib/libpdapi.so \
-    vendor/huawei/c8860e/proprietary/lib/libpdsm_atl.so:system/lib/libpdsm_atl.so \
+    vendor/huawei/c8860e/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
+    vendor/huawei/c8860e/proprietary/lib/libshareril.so:system/lib/libshareril.so \
     vendor/huawei/c8860e/proprietary/lib/libuim.so:system/lib/libuim.so \
     vendor/huawei/c8860e/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/huawei/c8860e/proprietary/lib/libauth.so:system/lib/libauth.so \
@@ -65,7 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8860e/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
     vendor/huawei/c8860e/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
     vendor/huawei/c8860e/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
-    vendor/huawei/c8860e/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/huawei/c8860e/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/huawei/c8860e/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/huawei/c8860e/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
