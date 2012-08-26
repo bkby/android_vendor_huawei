@@ -82,9 +82,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8812/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/c8812/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
     vendor/huawei/c8812/proprietary/bin/netmgrd:system/bin/netmgrd \
-	vendor/huawei/c8812/proprietary/bin/btld:system/bin/btld \
-	vendor/huawei/c8812/proprietary/bin/btnvtool:system/bin/btnvtool \
-	vendor/huawei/c8812/proprietary/bin/bluetoothd:system/bin/bluetoothd \
 	vendor/huawei/c8812/proprietary/bin/cust:system/bin/cust \
 	vendor/huawei/c8812/proprietary/bin/wl:system/bin/wl \
 	vendor/huawei/c8812/proprietary/bin/wl_4330:system/bin/wl_4330 \
@@ -101,7 +98,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8812/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/huawei/c8812/proprietary/lib/libuim.so:system/lib/libuim.so \
     vendor/huawei/c8812/proprietary/bin/hciattach:system/bin/hciattach \
-	vendor/huawei/c8812/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	vendor/huawei/c8812/proprietary/bin/wpa_cli:system/bin/wpa_cli \
     vendor/huawei/c8812/proprietary/lib/liboeminfodata.so:system/lib/liboeminfodata.so \
     vendor/huawei/c8812/proprietary/lib/libOmxIttiamVdec.so:system/lib/libOmxIttiamVdec.so \
@@ -114,6 +110,4 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8812/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
     vendor/huawei/c8812/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/huawei/c8812/proprietary/lib/libmvs.so:system/lib/libmvs.so \
-	vendor/huawei/c8812/proprietary/lib/libwifidiag.so:system/lib/libwifidiag.so \
-	vendor/huawei/c8812/proprietary/lib/libwifi_test.so:system/lib/libwifi_test.so
     
