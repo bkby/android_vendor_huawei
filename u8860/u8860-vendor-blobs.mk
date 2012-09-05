@@ -115,4 +115,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8860/proprietary/bin/mm-qcamera-testsuite-client:system/bin/mm-qcamera-testsuite-client \
     vendor/huawei/u8860/proprietary/bin/mm-venc-omx-test720p:system/bin/mm-venc-omx-test720p \
     vendor/huawei/u8860/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
-    vendor/huawei/u8860/proprietary/lib/hw/hwcomposer.msm7630_surf.so:system/lib/hw/hwcomposer.msm7630_surf.so
+    vendor/huawei/u8860/proprietary/lib/hw/hwcomposer.msm7630_surf.so:system/lib/hw/hwcomposer.msm7630_surf.so \
+    vendor/huawei/u8860/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/huawei/u8860/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
+    vendor/huawei/u8860/proprietary/lib/libmmparser.so:system/lib/libmmparser.so

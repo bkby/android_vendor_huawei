@@ -114,6 +114,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8860e/proprietary/bin/mm-venc-omx-test720p:system/bin/mm-venc-omx-test720p \
     vendor/huawei/c8860e/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
     vendor/huawei/c8860e/proprietary/lib/hw/hwcomposer.msm7630_surf.so:system/lib/hw/hwcomposer.msm7630_surf.so \
+    vendor/huawei/c8860e/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/huawei/c8860e/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
+    vendor/huawei/c8860e/proprietary/lib/libmmparser.so:system/lib/libmmparser.so
+
 #    vendor/huawei/c8860e/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
 #    vendor/huawei/c8860e/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
 #    vendor/huawei/c8860e/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
