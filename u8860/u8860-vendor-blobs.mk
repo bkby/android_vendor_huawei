@@ -34,9 +34,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8860/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo
 
 #  we can use source build
-#PRODUCT_COPY_FILES += \
-#    vendor/huawei/u8860/proprietary/lib/libril.so:system/lib/libril.so \
-#    vendor/huawei/u8860/proprietary/lib/libril.so:obj/lib/libril.so \
+PRODUCT_COPY_FILES += \
+    vendor/huawei/u8860/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/huawei/u8860/proprietary/lib/libril.so:obj/lib/libril.so \
 
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8860/proprietary/bin/qmuxd:system/bin/qmuxd \
