@@ -176,10 +176,6 @@ PRODUCT_COPY_FILES += \
 #add bin & .so
 PRODUCT_COPY_FILES += \
 	vendor/huawei/u8818/proprietary/bin/battery_charging:system/bin/battery_charging \
-	vendor/huawei/u8818/proprietary/bin/wl:system/bin/wl \
-	vendor/huawei/u8818/proprietary/bin/wl_4330:system/bin/wl_4330 \
-	vendor/huawei/u8818/proprietary/bin/wlan_detect:system/bin/wlan_detect \
 	vendor/huawei/u8818/proprietary/bin/cust:system/bin/cust \
 	vendor/huawei/u8818/proprietary/lib/libwifidiag.so:system/lib/libwifidiag.so \
-	vendor/huawei/u8818/proprietary/lib/libwifi_test.so:system/lib/libwifi_test.so \
-	vendor/huawei/u8818/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant
+	vendor/huawei/u8818/proprietary/lib/libwifi_test.so:system/lib/libwifi_test.so

@@ -83,10 +83,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8812/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
     vendor/huawei/c8812/proprietary/bin/netmgrd:system/bin/netmgrd \
 	vendor/huawei/c8812/proprietary/bin/cust:system/bin/cust \
-	vendor/huawei/c8812/proprietary/bin/wl:system/bin/wl \
-	vendor/huawei/c8812/proprietary/bin/wl_4330:system/bin/wl_4330 \
-	vendor/huawei/c8812/proprietary/bin/wlan_detect:system/bin/wlan_detect \
-	vendor/huawei/c8812/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
 	vendor/huawei/c8812/proprietary/bin/write_NV_114:system/bin/write_NV_114 \
     vendor/huawei/c8812/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/huawei/c8812/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
