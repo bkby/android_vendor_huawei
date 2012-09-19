@@ -18,7 +18,7 @@
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/huawei/u8800pro/proprietary/lib/libhwrpc.so:obj/lib/libhwrpc.so \
-    vendor/huawei/u8800pro/proprietary/lib/libaudcal.so:system/lib/libaudcal.so
+    vendor/huawei/u8800pro/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so
 
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/bin/akmd8962:system/bin/akmd8962 \
