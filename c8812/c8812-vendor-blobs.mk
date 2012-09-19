@@ -94,7 +94,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8812/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/huawei/c8812/proprietary/lib/libuim.so:system/lib/libuim.so \
     vendor/huawei/c8812/proprietary/bin/hciattach:system/bin/hciattach \
-	vendor/huawei/c8812/proprietary/bin/wpa_cli:system/bin/wpa_cli \
     vendor/huawei/c8812/proprietary/lib/liboeminfodata.so:system/lib/liboeminfodata.so \
     vendor/huawei/c8812/proprietary/lib/libOmxIttiamVdec.so:system/lib/libOmxIttiamVdec.so \
     vendor/huawei/c8812/proprietary/lib/hw/lights.msm7627a.so:system/lib/hw/lights.msm7627a.so \
