@@ -18,6 +18,8 @@
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8860/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/huawei/u8860/proprietary/lib/libhwrpc.so:obj/lib/libhwrpc.so \
+	vendor/huawei/u8860/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
+	vendor/huawei/u8860/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/huawei/u8860/proprietary/lib/libhwnv.so:system/lib/libhwnv.so \
     vendor/huawei/u8860/proprietary/lib/liboeminfo.so:system/lib/liboeminfo.so \
     vendor/huawei/u8860/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
