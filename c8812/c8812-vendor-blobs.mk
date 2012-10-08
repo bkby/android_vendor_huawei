@@ -82,8 +82,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8812/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/c8812/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
     vendor/huawei/c8812/proprietary/bin/netmgrd:system/bin/netmgrd \
-	vendor/huawei/c8812/proprietary/bin/cust:system/bin/cust \
-	vendor/huawei/c8812/proprietary/bin/write_NV_114:system/bin/write_NV_114 \
+    vendor/huawei/c8812/proprietary/bin/cust:system/bin/cust \
+    vendor/huawei/c8812/proprietary/bin/write_NV_114:system/bin/write_NV_114 \
     vendor/huawei/c8812/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/huawei/c8812/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/huawei/c8812/proprietary/lib/libidl.so:system/lib/libidl.so \
@@ -105,4 +105,5 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8812/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
     vendor/huawei/c8812/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/huawei/c8812/proprietary/lib/libmvs.so:system/lib/libmvs.so \
+    vendor/huawei/c8812/proprietary/lib/libping_mdm.so:system/lib/libping_mdm.so
     
