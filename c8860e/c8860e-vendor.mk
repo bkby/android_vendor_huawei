@@ -18,5 +18,3 @@
 DEVICE_PACKAGE_OVERLAYS += vendor/huawei/c8860e/overlay
 
 $(call inherit-product, vendor/huawei/c8860e/c8860e-vendor-blobs.mk)
-#use android 4.0 camera lib
-$(call inherit-product, vendor/huawei/c8860e/camera40/camera-vendor-blobs.mk)
