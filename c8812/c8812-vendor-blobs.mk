@@ -96,7 +96,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8812/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/huawei/c8812/proprietary/lib/liboeminfodata.so:system/lib/liboeminfodata.so \
     vendor/huawei/c8812/proprietary/lib/libOmxIttiamVdec.so:system/lib/libOmxIttiamVdec.so \
-    vendor/huawei/c8812/proprietary/lib/hw/lights.msm7627a.so:system/lib/hw/lights.msm7627a.so \
     vendor/huawei/c8812/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/huawei/c8812/proprietary/lib/libhwnv.so:system/lib/libhwnv.so \
     vendor/huawei/c8812/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
@@ -107,3 +106,4 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8812/proprietary/lib/libmvs.so:system/lib/libmvs.so \
     vendor/huawei/c8812/proprietary/lib/libping_mdm.so:system/lib/libping_mdm.so
     
+#    vendor/huawei/c8812/proprietary/lib/hw/lights.msm7627a.so:system/lib/hw/lights.msm7627a.so \
