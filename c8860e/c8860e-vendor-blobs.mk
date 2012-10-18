@@ -137,11 +137,12 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8860e/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
     vendor/huawei/c8860e/proprietary/lib/libcontrast.so:system/lib/libcontrast.so \
     vendor/huawei/c8860e/proprietary/lib/libhdr.so:system/lib/libhdr.so \
+    vendor/huawei/c8860e/proprietary/lib/libzy_imgdenoise.so:system/lib/libzy_imgdenoise.so \
     vendor/huawei/c8860e/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/huawei/c8860e/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
     vendor/huawei/c8860e/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/huawei/c8860e/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
-    vendor/huawei/c8860e/proprietary/lib/hw/hwcomposer.msm7630_surf.so:system/lib/hw/hwcomposer.msm7630_surf.so
+#    vendor/huawei/c8860e/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
+#    vendor/huawei/c8860e/proprietary/lib/hw/hwcomposer.msm7630_surf.so:system/lib/hw/hwcomposer.msm7630_surf.so
     
 
 PRODUCT_COPY_FILES += \
