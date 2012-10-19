@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u9200/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/huawei/u9200/proprietary/bin/rild:system/bin/rild \
     vendor/huawei/u9200/proprietary/bin/cust:system/bin/cust \
+    vendor/huawei/u9200/proprietary/bin/gpslogd:system/bin/gpslogd \
     vendor/huawei/u9200/proprietary/vendor/bin/pvrsrvinit:system/vendor/bin/pvrsrvinit \
     vendor/huawei/u9200/proprietary/vendor/bin/pvrsrvctl_SGX540_120:system/vendor/bin/pvrsrvctl_SGX540_120 \
     vendor/huawei/u9200/proprietary/vendor/bin/pvrsrvctl_SGX544_112:system/vendor/bin/pvrsrvctl_SGX544_112 \
@@ -61,18 +62,11 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u9200/proprietary/vendor/lib/libsrv_um_SGX544_112.so:system/vendor/lib/libsrv_um_SGX544_112.so \
     vendor/huawei/u9200/proprietary/vendor/lib/libusc_SGX540_120.so:system/vendor/lib/libusc_SGX540_120.so \
     vendor/huawei/u9200/proprietary/vendor/lib/libusc_SGX544_112.so:system/vendor/lib/libusc_SGX544_112.so \
-    vendor/huawei/u9200/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
-    vendor/huawei/u9200/proprietary/lib/hw/audio.hdmi.omap4.so:system/lib/hw/audio.hdmi.omap4.so \
-    vendor/huawei/u9200/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
-    vendor/huawei/u9200/proprietary/lib/hw/audio.primary.omap4.so:system/lib/hw/audio.primary.omap4.so \
-    vendor/huawei/u9200/proprietary/lib/hw/camera.omap4.so:system/lib/hw/camera.omap4.so \
     vendor/huawei/u9200/proprietary/lib/hw/gps.omap4.so:system/lib/hw/gps.omap4.so \
     vendor/huawei/u9200/proprietary/lib/hw/lights.omap4.so:system/lib/hw/lights.omap4.so \
     vendor/huawei/u9200/proprietary/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so \
     vendor/huawei/u9200/proprietary/lib/modules/pvrsrvkm_sgx540_120.ko:system/lib/modules/pvrsrvkm_sgx540_120.ko \
     vendor/huawei/u9200/proprietary/lib/modules/pvrsrvkm_sgx544_112.ko:system/lib/modules/pvrsrvkm_sgx544_112.ko \
-    vendor/huawei/u9200/proprietary/lib/libaudioutils.so:system/lib/libaudioutils.so \
-    vendor/huawei/u9200/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/huawei/u9200/proprietary/lib/libtiutils.so:system/lib/libtiutils.so \
     vendor/huawei/u9200/proprietary/lib/libbluedroid.so:system/lib/libbluedroid.so \
     vendor/huawei/u9200/proprietary/lib/libchip_management.so:system/lib/libchip_management.so \
