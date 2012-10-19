@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u9200/proprietary/vendor/lib/hw/gralloc.omap4430.so:system/vendor/lib/hw/gralloc.omap4430.so \
     vendor/huawei/u9200/proprietary/vendor/lib/hw/gralloc.omap4460.so:system/vendor/lib/hw/gralloc.omap4460.so \
     vendor/huawei/u9200/proprietary/vendor/lib/hw/gralloc.omap4470.so:system/vendor/lib/hw/gralloc.omap4470.so \
-    vendor/huawei/u9200/proprietary/vendor/lib/hw/hwcomposer.omap4.so:system/vendor/lib/hw/hwcomposer.omap4.so \
     vendor/huawei/u9200/proprietary/vendor/lib/libbltsville_cpu.so:system/vendor/lib/libbltsville_cpu.so \
     vendor/huawei/u9200/proprietary/vendor/lib/libbltsville_gc2d.2.1.2.0.so:system/vendor/lib/libbltsville_gc2d.2.1.2.0.so \
     vendor/huawei/u9200/proprietary/vendor/lib/libbltsville_gc2d.so:system/vendor/lib/libbltsville_gc2d.so \
