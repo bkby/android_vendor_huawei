@@ -66,6 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u9200/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
     vendor/huawei/u9200/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
     vendor/huawei/u9200/proprietary/lib/hw/audio.primary.omap4.so:system/lib/hw/audio.primary.omap4.so \
+    vendor/huawei/u9200/proprietary/lib/hw/camera.omap4.so:system/lib/hw/camera.omap4.so \
     vendor/huawei/u9200/proprietary/lib/hw/gps.omap4.so:system/lib/hw/gps.omap4.so \
     vendor/huawei/u9200/proprietary/lib/hw/lights.omap4.so:system/lib/hw/lights.omap4.so \
     vendor/huawei/u9200/proprietary/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so \
