@@ -127,6 +127,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/huawei/u8800pro/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
     vendor/huawei/u8800pro/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/huawei/u8800pro/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so
 #    vendor/huawei/u8800pro/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
 #    vendor/huawei/u8800pro/proprietary/lib/hw/hwcomposer.msm7630_surf.so:system/lib/hw/hwcomposer.msm7630_surf.so
     
