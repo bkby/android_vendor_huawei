@@ -20,6 +20,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u9200/proprietary/bin/rild:system/bin/rild \
     vendor/huawei/u9200/proprietary/bin/cust:system/bin/cust \
     vendor/huawei/u9200/proprietary/bin/gpslogd:system/bin/gpslogd \
+	vendor/huawei/u9200/proprietary/bin/hci_dev_state:system/bin/hci_dev_state \
+    vendor/huawei/u9200/proprietary/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus \
     vendor/huawei/u9200/proprietary/vendor/bin/pvrsrvinit:system/vendor/bin/pvrsrvinit \
     vendor/huawei/u9200/proprietary/vendor/bin/pvrsrvctl_SGX540_120:system/vendor/bin/pvrsrvctl_SGX540_120 \
     vendor/huawei/u9200/proprietary/vendor/bin/pvrsrvctl_SGX544_112:system/vendor/bin/pvrsrvctl_SGX544_112 \
@@ -29,6 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u9200/proprietary/vendor/firmware/fw_bcmdhd_p2p.bin:system/vendor/firmware/fw_bcmdhd_p2p.bin \
     vendor/huawei/u9200/proprietary/vendor/firmware/fw_bcmdhd_test.bin:system/vendor/firmware/fw_bcmdhd_test.bin \
     vendor/huawei/u9200/proprietary/vendor/firmware/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin \
+	vendor/huawei/u9200/proprietary/vendor/firmware/nvram.txt:system/vendor/firmware/nvram.txt \
     vendor/huawei/u9200/proprietary/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
     vendor/huawei/u9200/proprietary/vendor/lib/egl/libEGL_POWERVR_SGX544_112.so:system/vendor/lib/egl/libEGL_POWERVR_SGX544_112.so \
     vendor/huawei/u9200/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
@@ -76,11 +79,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u9200/proprietary/lib/libtiutils.so:system/lib/libtiutils.so \
     vendor/huawei/u9200/proprietary/lib/libbluedroid.so:system/lib/libbluedroid.so \
     vendor/huawei/u9200/proprietary/lib/libchip_management.so:system/lib/libchip_management.so \
-    vendor/huawei/u9200/proprietary/lib/libclcore.bc:system/lib/libclcore.bc \
-    vendor/huawei/u9200/proprietary/lib/libclcore_neon.bc:system/lib/libclcore_neon.bc \
     vendor/huawei/u9200/proprietary/lib/libdomx.so:system/lib/libdomx.so \
     vendor/huawei/u9200/proprietary/lib/libexif.so:system/lib/libexif.so \
-    vendor/huawei/u9200/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
     vendor/huawei/u9200/proprietary/lib/libhelixplayer.so:system/lib/libhelixplayer.so \
     vendor/huawei/u9200/proprietary/lib/libHME-Audio.so:system/lib/libHME-Audio.so \
     vendor/huawei/u9200/proprietary/lib/libHME-Audio-v6.so:system/lib/libHME-Audio-v6.so \
@@ -92,7 +92,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u9200/proprietary/lib/libHuaweiVideoEngine.so:system/lib/libHuaweiVideoEngine.so \
     vendor/huawei/u9200/proprietary/lib/libHuaweiVideoEngine-v6.so:system/lib/libHuaweiVideoEngine-v6.so \
     vendor/huawei/u9200/proprietary/lib/libion.so:system/lib/libion.so \
-    vendor/huawei/u9200/proprietary/lib/libjpeg.so:system/lib/libjpeg.so \
     vendor/huawei/u9200/proprietary/lib/libmm_osal.so:system/lib/libmm_osal.so \
     vendor/huawei/u9200/proprietary/lib/libOMX_Core.so:system/lib/libOMX_Core.so \
     vendor/huawei/u9200/proprietary/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so:system/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so \
