@@ -81,16 +81,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u9200/proprietary/lib/libchip_management.so:system/lib/libchip_management.so \
     vendor/huawei/u9200/proprietary/lib/libdomx.so:system/lib/libdomx.so \
     vendor/huawei/u9200/proprietary/lib/libexif.so:system/lib/libexif.so \
-    vendor/huawei/u9200/proprietary/lib/libhelixplayer.so:system/lib/libhelixplayer.so \
-    vendor/huawei/u9200/proprietary/lib/libHME-Audio.so:system/lib/libHME-Audio.so \
-    vendor/huawei/u9200/proprietary/lib/libHME-Audio-v6.so:system/lib/libHME-Audio-v6.so \
-    vendor/huawei/u9200/proprietary/lib/libHME-Video.so:system/lib/libHME-Video.so \
-    vendor/huawei/u9200/proprietary/lib/libHME-Video-v6.so:system/lib/libHME-Video-v6.so \
-    vendor/huawei/u9200/proprietary/lib/libHuaweiAudioEngine.so:system/lib/libHuaweiAudioEngine.so \
-    vendor/huawei/u9200/proprietary/lib/libHuaweiAudioEngine-v6.so:system/lib/libHuaweiAudioEngine-v6.so \
-    vendor/huawei/u9200/proprietary/lib/libHuaweiNat.so:system/lib/libHuaweiNat.so \
-    vendor/huawei/u9200/proprietary/lib/libHuaweiVideoEngine.so:system/lib/libHuaweiVideoEngine.so \
-    vendor/huawei/u9200/proprietary/lib/libHuaweiVideoEngine-v6.so:system/lib/libHuaweiVideoEngine-v6.so \
     vendor/huawei/u9200/proprietary/lib/libion.so:system/lib/libion.so \
     vendor/huawei/u9200/proprietary/lib/libmm_osal.so:system/lib/libmm_osal.so \
     vendor/huawei/u9200/proprietary/lib/libOMX_Core.so:system/lib/libOMX_Core.so \
