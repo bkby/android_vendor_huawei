@@ -127,6 +127,15 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/huawei/u8800pro/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
     vendor/huawei/u8800pro/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/huawei/u8800pro/proprietary/lib/libtcpfinaggr.so:system/lib/libtcpfinaggr.so \
+    vendor/huawei/u8800pro/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
+    vendor/huawei/u8800pro/proprietary/lib/tcp-connections.so:system/lib/tcp-connections.so \
+    vendor/huawei/u8800pro/proprietary/lib/libdnshostprio.so:system/lib/libdnshostprio.so \
+    vendor/huawei/u8800pro/proprietary/lib/pp_proc_plugin.so:system/lib/pp_proc_plugin.so \
+    vendor/huawei/u8800pro/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
+    vendor/huawei/u8800pro/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
+    vendor/huawei/u8800pro/proprietary/lib/libwvm.so:system/lib/libwvm.so \
+    vendor/huawei/u8800pro/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
     vendor/huawei/u8800pro/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so
 #    vendor/huawei/u8800pro/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
 #    vendor/huawei/u8800pro/proprietary/lib/hw/hwcomposer.msm7630_surf.so:system/lib/hw/hwcomposer.msm7630_surf.so
