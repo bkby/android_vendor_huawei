@@ -67,8 +67,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8818/proprietary/lib/hw/camera.msm7627a.so:system/lib/hw/camera.msm7627a.so
     
 # MIS
-PRODUCT_COPY_FILES += \
-    vendor/huawei/u8818/proprietary/lib/hw/lights.msm7627a.so:system/lib/hw/lights.msm7627a.so
+#PRODUCT_COPY_FILES += \
+#    vendor/huawei/u8818/proprietary/lib/hw/lights.msm7627a.so:system/lib/hw/lights.msm7627a.so
     
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8818/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
