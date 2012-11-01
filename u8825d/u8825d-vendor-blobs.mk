@@ -17,6 +17,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8825d/proprietary/bin/abtfilt:system/bin/abtfilt \
+    vendor/huawei/u8825d/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/u8825d/proprietary/bin/akmd8963:system/bin/akmd8963 \
     vendor/huawei/u8825d/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/huawei/u8825d/proprietary/bin/ath_supplicant:system/bin/ath_supplicant \
@@ -48,6 +49,14 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8825d/proprietary/lib/hw/camera.msm7627a.so:system/lib/hw/camera.msm7627a.so \
     vendor/huawei/u8825d/proprietary/lib/hw/lights.msm7627a.so:system/lib/hw/lights.msm7627a.so \
     vendor/huawei/u8825d/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
+    vendor/huawei/u8825d/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
+    vendor/huawei/u8825d/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
+    vendor/huawei/u8825d/proprietary/lib/libauth.so:system/lib/libauth.so \
+    vendor/huawei/u8825d/proprietary/lib/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
+    vendor/huawei/u8825d/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
+    vendor/huawei/u8825d/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
+    vendor/huawei/u8825d/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
+    vendor/huawei/u8825d/proprietary/lib/libgetzip.so:system/lib/libgetzip.so \
     vendor/huawei/u8825d/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
     vendor/huawei/u8825d/proprietary/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
     vendor/huawei/u8825d/proprietary/lib/libchromatix_imx074_video_hd.so:system/lib/libchromatix_imx074_video_hd.so \
@@ -84,7 +93,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8825d/proprietary/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k4e1_preview.so \
     vendor/huawei/u8825d/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/huawei/u8825d/proprietary/lib/libCommandSvc.so:system/lib/libCommandSvc.so \
-    vendor/huawei/u8825d/proprietary/lib/libCommon.so:system/lib/libCommon.so \
+    vendor/huawei/u8825d/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
     vendor/huawei/u8825d/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/huawei/u8825d/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/huawei/u8825d/proprietary/lib/libdsprofile.so:system/lib/libdsprofile.so \
@@ -98,12 +107,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8825d/proprietary/lib/libifdsmartcardapi.so:system/lib/libifdsmartcardapi.so \
     vendor/huawei/u8825d/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/huawei/u8825d/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
-    vendor/huawei/u8825d/proprietary/lib/libimagesdk.so:system/lib/libimagesdk.so \
     vendor/huawei/u8825d/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/huawei/u8825d/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
     vendor/huawei/u8825d/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/huawei/u8825d/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
-    vendor/huawei/u8825d/proprietary/lib/liblocSDK_2.2.so:system/lib/liblocSDK_2.2.so \
     vendor/huawei/u8825d/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/huawei/u8825d/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/huawei/u8825d/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
@@ -124,6 +131,20 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8825d/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/huawei/u8825d/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/huawei/u8825d/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
+    vendor/huawei/u8825d/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
+    vendor/huawei/u8825d/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/huawei/u8825d/proprietary/lib/liboeminfodata.so:system/lib/liboeminfodata.so \
+    vendor/huawei/u8825d/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
+    vendor/huawei/u8825d/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
+    vendor/huawei/u8825d/proprietary/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
+    vendor/huawei/u8825d/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
+    vendor/huawei/u8825d/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
+    vendor/huawei/u8825d/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
+    vendor/huawei/u8825d/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
+    vendor/huawei/u8825d/proprietary/lib/libOmxEvrcHwDec.so:system/lib/libOmxEvrcHwDec.so \
+    vendor/huawei/u8825d/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
+    vendor/huawei/u8825d/proprietary/lib/libOmxQcelpHwDec.so:system/lib/libOmxQcelpHwDec.so \
+    vendor/huawei/u8825d/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/huawei/u8825d/proprietary/lib/libmvs.so:system/lib/libmvs.so \
     vendor/huawei/u8825d/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/huawei/u8825d/proprietary/lib/libNimsWrap.so:system/lib/libNimsWrap.so \
@@ -147,6 +168,17 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8825d/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
     vendor/huawei/u8825d/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
     vendor/huawei/u8825d/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+    vendor/huawei/u8825d/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
+    vendor/huawei/u8825d/proprietary/lib/libshareril.so:system/lib/libshareril.so \
+    vendor/huawei/u8825d/proprietary/lib/linear.so:system/lib/linear.so \
+    vendor/huawei/u8825d/proprietary/lib/pp_proc_plugin.so:system/lib/pp_proc_plugin.so \
+    vendor/huawei/u8825d/proprietary/lib/pthres.so:system/lib/pthres.so \
+    vendor/huawei/u8825d/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
+    vendor/huawei/u8825d/proprietary/lib/tcp-connections.so:system/lib/tcp-connections.so \
+    vendor/huawei/u8825d/proprietary/lib/variance.so:system/lib/variance.so \
+    vendor/huawei/u8825d/proprietary/lib/libxgold-ril.so:system/lib/libxgold-ril.so \
+    vendor/huawei/u8825d/proprietary/lib/libwvm.so:system/lib/libwvm.so \
+    vendor/huawei/u8825d/proprietary/lib/libdnshostprio.so:system/lib/libdnshostprio.so \
     vendor/huawei/u8825d/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/huawei/u8825d/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/huawei/u8825d/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
@@ -158,6 +190,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8825d/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/huawei/u8825d/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/huawei/u8825d/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/huawei/u8825d/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/huawei/u8825d/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/huawei/u8825d/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
+    vendor/huawei/u8825d/proprietary/lib/libdsm.so:system/lib/libdsm.so \
+    vendor/huawei/u8825d/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/huawei/u8825d/proprietary/lib/libzy_imgdenoise.so:system/lib/libzy_imgdenoise.so
