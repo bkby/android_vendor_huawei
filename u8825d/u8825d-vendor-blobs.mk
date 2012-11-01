@@ -197,4 +197,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8825d/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/huawei/u8825d/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/huawei/u8825d/proprietary/lib/libnl_2.so:system/lib/libnl_2.so \
+    vendor/huawei/u8825d/proprietary/bin/amploader:system/bin/amploader \
+    vendor/huawei/u8825d/proprietary/bin/hwdevctlservice:system/bin/hwdevctlservice \
+    vendor/huawei/u8825d/proprietary/lib/libhwdevctlservice.so:system/lib/libhwdevctlservice.so \
+    vendor/huawei/u8825d/proprietary/lib/libhwdevctl_client.so:system/lib/libhwdevctl_client.so \
     vendor/huawei/u8825d/proprietary/lib/libzy_imgdenoise.so:system/lib/libzy_imgdenoise.so
