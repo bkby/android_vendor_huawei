@@ -178,4 +178,10 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8818/proprietary/bin/battery_charging:system/bin/battery_charging \
 	vendor/huawei/u8818/proprietary/bin/cust:system/bin/cust \
 	vendor/huawei/u8818/proprietary/lib/libwifidiag.so:system/lib/libwifidiag.so \
-	vendor/huawei/u8818/proprietary/lib/libwifi_test.so:system/lib/libwifi_test.so
+	vendor/huawei/u8818/proprietary/lib/libwifi_test.so:system/lib/libwifi_test.so \
+	vendor/huawei/u8818/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
+	vendor/huawei/u8818/proprietary/lib/libdnshostprio.so:system/lib/libdnshostprio.so \
+	vendor/huawei/u8818/proprietary/lib/libtcpfinaggr.so:system/lib/libtcpfinaggr.so \
+	vendor/huawei/u8818/proprietary/lib/pp_proc_plugin.so:system/lib/pp_proc_plugin.so \
+	vendor/huawei/u8818/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
+	vendor/huawei/u8818/proprietary/lib/tcp-connections.so:system/lib/tcp-connections.so
