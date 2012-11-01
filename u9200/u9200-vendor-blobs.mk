@@ -80,7 +80,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u9200/proprietary/lib/libbluedroid.so:system/lib/libbluedroid.so \
     vendor/huawei/u9200/proprietary/lib/libchip_management.so:system/lib/libchip_management.so \
     vendor/huawei/u9200/proprietary/lib/libdomx.so:system/lib/libdomx.so \
-    vendor/huawei/u9200/proprietary/lib/libexif.so:system/lib/libexif.so \
     vendor/huawei/u9200/proprietary/lib/libion.so:system/lib/libion.so \
     vendor/huawei/u9200/proprietary/lib/libmm_osal.so:system/lib/libmm_osal.so \
     vendor/huawei/u9200/proprietary/lib/libOMX_Core.so:system/lib/libOMX_Core.so \
