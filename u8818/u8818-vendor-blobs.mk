@@ -184,4 +184,5 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8818/proprietary/lib/libtcpfinaggr.so:system/lib/libtcpfinaggr.so \
 	vendor/huawei/u8818/proprietary/lib/pp_proc_plugin.so:system/lib/pp_proc_plugin.so \
 	vendor/huawei/u8818/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
-	vendor/huawei/u8818/proprietary/lib/tcp-connections.so:system/lib/tcp-connections.so
+	vendor/huawei/u8818/proprietary/lib/tcp-connections.so:system/lib/tcp-connections.so \
+	vendor/huawei/u8818/proprietary/lib/libgetzip.so:system/lib/libgetzip.so
