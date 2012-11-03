@@ -83,6 +83,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u9500/proprietary/lib/libion.so:system/lib/libion.so \
     vendor/huawei/u9500/proprietary/lib/libmm_osal.so:system/lib/libmm_osal.so \
     vendor/huawei/u9500/proprietary/lib/libOMX_Core.so:system/lib/libOMX_Core.so \
+    vendor/huawei/u9500/proprietary/lib/libaudience.so:system/lib/libaudience.so \
     vendor/huawei/u9500/proprietary/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so:system/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so \
     vendor/huawei/u9500/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.CAMERA.so:system/lib/libOMX.TI.DUCATI1.VIDEO.CAMERA.so \
     vendor/huawei/u9500/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.DECODER.secure.so:system/lib/libOMX.TI.DUCATI1.VIDEO.DECODER.secure.so \
@@ -104,4 +105,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u9500/proprietary/etc/firmware/TIInit_10.6.15.bts:system/etc/firmware/TIInit_10.6.15.bts \
     vendor/huawei/u9500/proprietary/etc/firmware/TIInit_7.2.31.bts:system/etc/firmware/TIInit_7.2.31.bts \
     vendor/huawei/u9500/proprietary/etc/firmware/TIInit_7.6.15.bts:system/etc/firmware/TIInit_7.6.15.bts \
-    vendor/huawei/u9500/proprietary/etc/bluetooth/BCM4330B1.hcd:system/etc/bluetooth/BCM4330B1.hcd
+    vendor/huawei/u9500/proprietary/etc/bluetooth/BCM4330B1.hcd:system/etc/bluetooth/BCM4330B1.hcd \
+    vendor/huawei/u9500/proprietary/bin/atcmdserver:system/bin/atcmdserver \
+    vendor/huawei/u9500/proprietary/bin/Injection_nv:system/bin/Injection_nv \
+    vendor/huawei/u9500/proprietary/bin/nvm_server:system/bin/nvm_server \
+    vendor/huawei/u9500/proprietary/bin/smc_pa_ctrl:system/bin/smc_pa_ctrl \
+    vendor/huawei/u9500/proprietary/bin/uim-sysfs:system/bin/uim-sysfs \
+    vendor/huawei/u9500/proprietary/etc/es305img.bin:system/etc/es305img.bin
