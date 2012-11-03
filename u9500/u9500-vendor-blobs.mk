@@ -111,4 +111,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u9500/proprietary/bin/nvm_server:system/bin/nvm_server \
     vendor/huawei/u9500/proprietary/bin/smc_pa_ctrl:system/bin/smc_pa_ctrl \
     vendor/huawei/u9500/proprietary/bin/uim-sysfs:system/bin/uim-sysfs \
-    vendor/huawei/u9500/proprietary/etc/es305img.bin:system/etc/es305img.bin
+    vendor/huawei/u9500/proprietary/etc/es305img.bin:system/etc/es305img.bin \
+    vendor/huawei/u9500/proprietary/vendor/lib/hw/hwcomposer.omap4.so:system/vendor/lib/hw/hwcomposer.omap4.so \
+    vendor/huawei/u9500/proprietary/lib/libhuawei-audio-ril.so:system/lib/libhuawei-audio-ril.so \
+    vendor/huawei/u9500/proprietary/lib/liboeminfo.so:system/lib/liboeminfo.so \
+    vendor/huawei/u9500/proprietary/lib/libnv_public_interface.so:system/lib/libnv_public_interface.so \
+    vendor/huawei/u9500/proprietary/lib/liboeminfo_public_interface.so:system/lib/liboeminfo_public_interface.so \
+    vendor/huawei/u9500/proprietary/lib/libatpswdck.so:system/lib/libatpswdck.so
