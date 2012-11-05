@@ -118,4 +118,5 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u9500/proprietary/lib/libnv_public_interface.so:system/lib/libnv_public_interface.so \
     vendor/huawei/u9500/proprietary/lib/liboeminfo_public_interface.so:system/lib/liboeminfo_public_interface.so \
     vendor/huawei/u9500/proprietary/lib/libatpswdck.so:system/lib/libatpswdck.so \
-    vendor/huawei/u9500/proprietary/bin/IMCdownload_App:system/bin/IMCdownload_App
+    vendor/huawei/u9500/proprietary/bin/IMCdownload_App:system/bin/IMCdownload_App \
+	vendor/huawei/u9500/proprietary/lib/libedid.so:system/lib/libedid.so \
