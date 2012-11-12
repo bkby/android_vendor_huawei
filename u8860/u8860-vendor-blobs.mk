@@ -138,12 +138,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8860/proprietary/lib/libOMX.SEC.M4V.Decoder.aries.so:system/lib/libOMX.SEC.M4V.Decoder.aries.so \
     vendor/huawei/u8860/proprietary/lib/libOMX.SEC.M4V.Encoder.aries.so:system/lib/libOMX.SEC.M4V.Encoder.aries.so \
     vendor/huawei/u8860/proprietary/lib/libSEC_OMX_Core.aries.so:system/lib/libSEC_OMX_Core.aries.so \
-    vendor/huawei/u8860/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
-    vendor/huawei/u8860/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-    vendor/huawei/u8860/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
-    vendor/huawei/u8860/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/huawei/u8860/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
-    vendor/huawei/u8860/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/huawei/u8860/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
     vendor/huawei/u8860/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
     vendor/huawei/u8860/proprietary/lib/libcontrast.so:system/lib/libcontrast.so \
