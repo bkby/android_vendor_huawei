@@ -1,4 +1,4 @@
-# Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2012 The ShenDuOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -45,15 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8860e/proprietary/bin/profiler_daemon:system/bin/profiler_daemon \
     vendor/huawei/c8860e/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/huawei/c8860e/proprietary/bin/write_NV_114:system/bin/write_NV_114 \
-    vendor/huawei/c8860e/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
-    vendor/huawei/c8860e/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-    vendor/huawei/c8860e/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
-    vendor/huawei/c8860e/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/huawei/c8860e/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
-    vendor/huawei/c8860e/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-    vendor/huawei/c8860e/proprietary/lib/libpdapi.so:system/lib/libpdapi.so \
-    vendor/huawei/c8860e/proprietary/lib/libpdsm_atl.so:system/lib/libpdsm_atl.so \
-    vendor/huawei/c8860e/proprietary/lib/libping_mdm.so:system/lib/libping_mdm.so
 
 PRODUCT_COPY_FILES += \
     vendor/huawei/c8860e/proprietary/lib/hw/camera.msm7630_surf.so:system/lib/hw/camera.msm7630_surf.so \
@@ -134,10 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8860e/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/huawei/c8860e/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     vendor/huawei/c8860e/proprietary/lib/libshareril.so:system/lib/libshareril.so \
-    vendor/huawei/c8860e/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
-    vendor/huawei/c8860e/proprietary/lib/libcontrast.so:system/lib/libcontrast.so \
-    vendor/huawei/c8860e/proprietary/lib/libhdr.so:system/lib/libhdr.so \
-    vendor/huawei/c8860e/proprietary/lib/libzy_imgdenoise.so:system/lib/libzy_imgdenoise.so \
     vendor/huawei/c8860e/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/huawei/c8860e/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
     vendor/huawei/c8860e/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -150,28 +137,27 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8860e/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
     vendor/huawei/c8860e/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/huawei/c8860e/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
-#    vendor/huawei/c8860e/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
-#    vendor/huawei/c8860e/proprietary/lib/hw/hwcomposer.msm7630_surf.so:system/lib/hw/hwcomposer.msm7630_surf.so
-    
-
-#PRODUCT_COPY_FILES += \
-#    vendor/huawei/c8860e/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-#    vendor/huawei/c8860e/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-#    vendor/huawei/c8860e/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-#    vendor/huawei/c8860e/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-#    vendor/huawei/c8860e/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-#    vendor/huawei/c8860e/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-#    vendor/huawei/c8860e/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-#    vendor/huawei/c8860e/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-#    vendor/huawei/c8860e/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so
+    vendor/huawei/c8860e/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
+    vendor/huawei/c8860e/proprietary/lib/libOMX.SEC.AVC.Decoder.aries.so:system/lib/libOMX.SEC.AVC.Decoder.aries.so \
+    vendor/huawei/c8860e/proprietary/lib/libOMX.SEC.AVC.Encoder.aries.so:system/lib/libOMX.SEC.AVC.Encoder.aries.so \
+    vendor/huawei/c8860e/proprietary/lib/libOMX.SEC.M4V.Decoder.aries.so:system/lib/libOMX.SEC.M4V.Decoder.aries.so \
+    vendor/huawei/c8860e/proprietary/lib/libOMX.SEC.M4V.Encoder.aries.so:system/lib/libOMX.SEC.M4V.Encoder.aries.so \
+    vendor/huawei/c8860e/proprietary/lib/libSEC_OMX_Core.aries.so:system/lib/libSEC_OMX_Core.aries.so \
+    vendor/huawei/c8860e/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
+    vendor/huawei/c8860e/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
+    vendor/huawei/c8860e/proprietary/lib/libcontrast.so:system/lib/libcontrast.so \
+    vendor/huawei/c8860e/proprietary/lib/libzy_imgdenoise.so:system/lib/libzy_imgdenoise.so \
+    vendor/huawei/c8860e/proprietary/lib/libhdr.so:system/lib/libhdr.so
 
 PRODUCT_COPY_FILES += \
-    vendor/huawei/c8860e/GPU/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/huawei/c8860e/GPU/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/huawei/c8860e/GPU/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/huawei/c8860e/GPU/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/huawei/c8860e/GPU/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/huawei/c8860e/GPU/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/huawei/c8860e/GPU/lib/libgsl.so:system/lib/libgsl.so \
-    vendor/huawei/c8860e/GPU/lib/libOpenVG.so:system/lib/libOpenVG.so \
-    vendor/huawei/c8860e/GPU/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so
+    vendor/huawei/c8860e/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+    vendor/huawei/c8860e/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+    vendor/huawei/c8860e/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+    vendor/huawei/c8860e/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/huawei/c8860e/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/huawei/c8860e/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
+    vendor/huawei/c8860e/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+    vendor/huawei/c8860e/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+    vendor/huawei/c8860e/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/huawei/c8860e/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
+    vendor/huawei/c8860e/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so
