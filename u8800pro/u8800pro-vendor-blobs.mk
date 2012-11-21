@@ -44,7 +44,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/lib/hw/camera.msm7630_surf.so:system/lib/hw/camera.msm7630_surf.so \
-    vendor/huawei/u8800pro/proprietary/lib/hw/lights.msm7630_surf.so:system/lib/hw/lights.msm7630_surf.so \
     vendor/huawei/u8800pro/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/huawei/u8800pro/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/huawei/u8800pro/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
@@ -158,3 +157,5 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/huawei/u8800pro/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/huawei/u8800pro/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so
+
+#    vendor/huawei/u8800pro/proprietary/lib/hw/lights.msm7630_surf.so:system/lib/hw/lights.msm7630_surf.so \
