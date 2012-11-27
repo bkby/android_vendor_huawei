@@ -115,6 +115,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/huawei/u8800pro/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/huawei/u8800pro/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/huawei/u8800pro/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/huawei/u8800pro/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/huawei/u8800pro/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/huawei/u8800pro/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/huawei/u8800pro/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
@@ -141,8 +143,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/lib/libSEC_OMX_Core.aries.so:system/lib/libSEC_OMX_Core.aries.so \
 #    vendor/huawei/u8800pro/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
 #    vendor/huawei/u8800pro/proprietary/lib/hw/hwcomposer.msm7630_surf.so:system/lib/hw/hwcomposer.msm7630_surf.so
-#    vendor/huawei/u8800pro/proprietary/lib/libril.so:system/lib/libril.so \
-#    vendor/huawei/u8800pro/proprietary/lib/libril.so:obj/lib/libril.so \
+
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/huawei/u8800pro/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
