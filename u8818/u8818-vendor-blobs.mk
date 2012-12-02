@@ -185,4 +185,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8818/proprietary/lib/pp_proc_plugin.so:system/lib/pp_proc_plugin.so \
 	vendor/huawei/u8818/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
 	vendor/huawei/u8818/proprietary/lib/tcp-connections.so:system/lib/tcp-connections.so \
-	vendor/huawei/u8818/proprietary/lib/libgetzip.so:system/lib/libgetzip.so
+	vendor/huawei/u8818/proprietary/lib/libgetzip.so:system/lib/libgetzip.so \
+	vendor/huawei/u8818/proprietary/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
+    vendor/huawei/u8818/proprietary/lib/libqc-opt.so:obj/lib/libqc-opt.so \
+    vendor/huawei/u8818/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
