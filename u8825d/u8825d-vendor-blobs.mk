@@ -209,5 +209,5 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8825d/proprietary/bin/sapd:system/bin/sapd \
     vendor/huawei/u8825d/proprietary/lib/liballjoyn.so:system/lib/liballjoyn.so \
     vendor/huawei/u8825d/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
-#    vendor/huawei/u8825d/proprietary/lib/libril.so:system/lib/libril.so \
-#    vendor/huawei/u8825d/proprietary/lib/libril.so:obj/lib/libril.so \
+    vendor/huawei/u8825d/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/huawei/u8825d/proprietary/lib/libril.so:obj/lib/libril.so \
