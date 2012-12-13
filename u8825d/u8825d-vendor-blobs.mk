@@ -189,8 +189,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8825d/proprietary/lib/libril-qc-1-no-dsds.so:system/lib/libril-qc-1-no-dsds.so \
     vendor/huawei/u8825d/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/huawei/u8825d/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-    vendor/huawei/u8825d/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/huawei/u8825d/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/huawei/u8825d/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/huawei/u8825d/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     vendor/huawei/u8825d/proprietary/lib/libdsm.so:system/lib/libdsm.so \
@@ -201,4 +199,15 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8825d/proprietary/bin/hwdevctlservice:system/bin/hwdevctlservice \
     vendor/huawei/u8825d/proprietary/lib/libhwdevctlservice.so:system/lib/libhwdevctlservice.so \
     vendor/huawei/u8825d/proprietary/lib/libhwdevctl_client.so:system/lib/libhwdevctl_client.so \
-    vendor/huawei/u8825d/proprietary/lib/libzy_imgdenoise.so:system/lib/libzy_imgdenoise.so
+    vendor/huawei/u8825d/proprietary/lib/libzy_imgdenoise.so:system/lib/libzy_imgdenoise.so \
+    vendor/huawei/u8825d/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
+    vendor/huawei/u8825d/proprietary/bin/atserver:system/bin/atserver \
+    vendor/huawei/u8825d/proprietary/bin/diag_dci_client:system/bin/diag_dci_client \
+    vendor/huawei/u8825d/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
+    vendor/huawei/u8825d/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
+    vendor/huawei/u8825d/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
+    vendor/huawei/u8825d/proprietary/bin/sapd:system/bin/sapd \
+    vendor/huawei/u8825d/proprietary/lib/liballjoyn.so:system/lib/liballjoyn.so \
+    vendor/huawei/u8825d/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
+#    vendor/huawei/u8825d/proprietary/lib/libril.so:system/lib/libril.so \
+#    vendor/huawei/u8825d/proprietary/lib/libril.so:obj/lib/libril.so \
