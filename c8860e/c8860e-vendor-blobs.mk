@@ -127,15 +127,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8860e/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/huawei/c8860e/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
     vendor/huawei/c8860e/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/huawei/c8860e/proprietary/lib/libtcpfinaggr.so:system/lib/libtcpfinaggr.so \
     vendor/huawei/c8860e/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
-    vendor/huawei/c8860e/proprietary/lib/tcp-connections.so:system/lib/tcp-connections.so \
-    vendor/huawei/c8860e/proprietary/lib/libdnshostprio.so:system/lib/libdnshostprio.so \
-    vendor/huawei/c8860e/proprietary/lib/pp_proc_plugin.so:system/lib/pp_proc_plugin.so \
     vendor/huawei/c8860e/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     vendor/huawei/c8860e/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
     vendor/huawei/c8860e/proprietary/lib/libwvm.so:system/lib/libwvm.so \
-    vendor/huawei/c8860e/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
     vendor/huawei/c8860e/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
     vendor/huawei/c8860e/proprietary/lib/libOMX.SEC.AVC.Decoder.aries.so:system/lib/libOMX.SEC.AVC.Decoder.aries.so \
     vendor/huawei/c8860e/proprietary/lib/libOMX.SEC.AVC.Encoder.aries.so:system/lib/libOMX.SEC.AVC.Encoder.aries.so \

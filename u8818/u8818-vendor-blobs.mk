@@ -180,11 +180,6 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8818/proprietary/lib/libwifidiag.so:system/lib/libwifidiag.so \
 	vendor/huawei/u8818/proprietary/lib/libwifi_test.so:system/lib/libwifi_test.so \
 	vendor/huawei/u8818/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
-	vendor/huawei/u8818/proprietary/lib/libdnshostprio.so:system/lib/libdnshostprio.so \
-	vendor/huawei/u8818/proprietary/lib/libtcpfinaggr.so:system/lib/libtcpfinaggr.so \
-	vendor/huawei/u8818/proprietary/lib/pp_proc_plugin.so:system/lib/pp_proc_plugin.so \
-	vendor/huawei/u8818/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
-	vendor/huawei/u8818/proprietary/lib/tcp-connections.so:system/lib/tcp-connections.so \
 	vendor/huawei/u8818/proprietary/lib/libgetzip.so:system/lib/libgetzip.so \
 	vendor/huawei/u8818/proprietary/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
     vendor/huawei/u8818/proprietary/lib/libqc-opt.so:obj/lib/libqc-opt.so \

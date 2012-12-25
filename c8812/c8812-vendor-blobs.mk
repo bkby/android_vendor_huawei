@@ -106,10 +106,5 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8812/proprietary/lib/libmvs.so:system/lib/libmvs.so \
     vendor/huawei/c8812/proprietary/lib/libping_mdm.so:system/lib/libping_mdm.so \
 	vendor/huawei/c8812/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
-	vendor/huawei/c8812/proprietary/lib/libdnshostprio.so:system/lib/libdnshostprio.so \
-	vendor/huawei/c8812/proprietary/lib/libtcpfinaggr.so:system/lib/libtcpfinaggr.so \
-	vendor/huawei/c8812/proprietary/lib/pp_proc_plugin.so:system/lib/pp_proc_plugin.so \
-	vendor/huawei/c8812/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
-	vendor/huawei/c8812/proprietary/lib/tcp-connections.so:system/lib/tcp-connections.so \
 	vendor/huawei/c8812/proprietary/lib/libgetzip.so:system/lib/libgetzip.so
 #    vendor/huawei/c8812/proprietary/lib/hw/lights.msm7627a.so:system/lib/hw/lights.msm7627a.so \
