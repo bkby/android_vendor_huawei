@@ -106,5 +106,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8812/proprietary/lib/libmvs.so:system/lib/libmvs.so \
     vendor/huawei/c8812/proprietary/lib/libping_mdm.so:system/lib/libping_mdm.so \
 	vendor/huawei/c8812/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
-	vendor/huawei/c8812/proprietary/lib/libgetzip.so:system/lib/libgetzip.so
+	vendor/huawei/c8812/proprietary/lib/libgetzip.so:system/lib/libgetzip.so \
+	vendor/huawei/c8812/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so
 #    vendor/huawei/c8812/proprietary/lib/hw/lights.msm7627a.so:system/lib/hw/lights.msm7627a.so \
