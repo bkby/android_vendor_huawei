@@ -16,9 +16,8 @@
 
 
 PRODUCT_COPY_FILES += \
-    vendor/huawei/c8812/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
-	vendor/huawei/c8812/proprietary/lib/libv8.so:obj/lib/libv8.so
-	
+    vendor/huawei/c8812/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so
+
 PRODUCT_COPY_FILES += \
     vendor/huawei/c8812/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/c8812/proprietary/bin/rild:system/bin/rild \
@@ -107,9 +106,5 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8812/proprietary/lib/libmvs.so:system/lib/libmvs.so \
     vendor/huawei/c8812/proprietary/lib/libping_mdm.so:system/lib/libping_mdm.so \
 	vendor/huawei/c8812/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
-	vendor/huawei/c8812/proprietary/lib/libgetzip.so:system/lib/libgetzip.so \
-	vendor/huawei/c8812/proprietary/lib/libv8.so:system/lib/libv8.so \
-	vendor/huawei/c8812/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
-	vendor/huawei/c8812/proprietary/lib/libtcpfinaggr.so:system/lib/libtcpflinaggr.so
-	
+	vendor/huawei/c8812/proprietary/lib/libgetzip.so:system/lib/libgetzip.so
 #    vendor/huawei/c8812/proprietary/lib/hw/lights.msm7627a.so:system/lib/hw/lights.msm7627a.so \
