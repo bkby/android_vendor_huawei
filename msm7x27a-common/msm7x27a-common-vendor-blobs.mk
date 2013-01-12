@@ -67,7 +67,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/msm7x27a-common/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
     vendor/huawei/msm7x27a-common/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     vendor/huawei/msm7x27a-common/proprietary/lib/libcontrast.so:system/lib/libcontrast.so \
-    vendor/huawei/msm7x27a-common/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/huawei/msm7x27a-common/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/huawei/msm7x27a-common/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/huawei/msm7x27a-common/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
