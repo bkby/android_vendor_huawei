@@ -46,8 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8825d/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
     vendor/huawei/u8825d/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
     vendor/huawei/u8825d/proprietary/bin/write_NV_114:system/bin/write_NV_114 \
-    vendor/huawei/u8825d/proprietary/lib/hw/camera.msm7627a.so:system/lib/hw/camera.msm7627a.so \
-    vendor/huawei/u8825d/proprietary/lib/hw/lights.msm7627a.so:system/lib/hw/lights.msm7627a.so \
+    vendor/huawei/u8825d/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
     vendor/huawei/u8825d/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/huawei/u8825d/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/huawei/u8825d/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
