@@ -205,6 +205,4 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8812e/proprietary/bin/pppd:system/bin/pppd \
     vendor/huawei/c8812e/proprietary/lib/libchromatix_mt9e013_sunny_default_video.so:system/lib/libchromatix_mt9e013_sunny_default_video.so \
     vendor/huawei/c8812e/proprietary/lib/libchromatix_mt9e013_sunny_preview.so:system/lib/libchromatix_mt9e013_sunny_preview.so \
-    vendor/huawei/c8812e/proprietary/lib/libchromatix_mt9e013_sunny_video_hfr.so:system/lib/libchromatix_mt9e013_sunny_video_hfr.so \
-    vendor/huawei/c8812e/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
-    vendor/huawei/c8812e/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so
+    vendor/huawei/c8812e/proprietary/lib/libchromatix_mt9e013_sunny_video_hfr.so:system/lib/libchromatix_mt9e013_sunny_video_hfr.so
