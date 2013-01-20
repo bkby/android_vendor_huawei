@@ -206,4 +206,5 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8812e/proprietary/lib/libchromatix_mt9e013_sunny_default_video.so:system/lib/libchromatix_mt9e013_sunny_default_video.so \
     vendor/huawei/c8812e/proprietary/lib/libchromatix_mt9e013_sunny_preview.so:system/lib/libchromatix_mt9e013_sunny_preview.so \
     vendor/huawei/c8812e/proprietary/lib/libchromatix_mt9e013_sunny_video_hfr.so:system/lib/libchromatix_mt9e013_sunny_video_hfr.so \
-    vendor/huawei/c8812e/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd
+    vendor/huawei/c8812e/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
+    vendor/huawei/c8812e/proprietary/lib/libcontrast.so:system/lib/libcontrast.so
