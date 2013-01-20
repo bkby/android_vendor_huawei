@@ -237,4 +237,5 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8813/proprietary/lib/hw/libqcomfm_if.so:system/lib/hw/libqcomfm_if.so \
     vendor/huawei/c8813/proprietary/lib/hw/lights.msm7627a.so:system/lib/hw/lights.msm7627a.so \
     vendor/huawei/c8813/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
-    vendor/huawei/c8813/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so
+    vendor/huawei/c8813/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
+    vendor/huawei/c8813/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so
