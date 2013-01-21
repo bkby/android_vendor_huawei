@@ -27,3 +27,4 @@ PRODUCT_COPY_FILES := \
 DEVICE_PACKAGE_OVERLAYS := vendor/huawei/c8812e/overlay
 
 $(call inherit-product, vendor/huawei/c8812e/c8812e-vendor-blobs.mk)
+$(call inherit-product, vendor/huawei/c8812e/camera.mk)
