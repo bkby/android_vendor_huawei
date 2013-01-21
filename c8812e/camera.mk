@@ -95,4 +95,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8812e/system/lib/libOmxVp8Dec.so:system/lib/libOmxVp8Dec.so \
     vendor/huawei/c8812e/system/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/huawei/c8812e/system/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
-    vendor/huawei/c8812e/system/lib/libzy_imgdenoise.so:system/lib/libzy_imgdenoise.so
+    vendor/huawei/c8812e/system/lib/libzy_imgdenoise.so:system/lib/libzy_imgdenoise.so \
+    vendor/huawei/c8812e/system/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/huawei/c8812e/system/lib/libcameraservice.so:system/lib/libcameraservice.so
