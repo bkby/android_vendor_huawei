@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8812e/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/huawei/c8812e/proprietary/bin/bmgr:system/bin/bmgr \
     vendor/huawei/c8812e/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
-    vendor/huawei/c8812e/proprietary/bin/bt_check:system/bin/bt_check \
     vendor/huawei/c8812e/proprietary/bin/ccid_daemon:system/bin/ccid_daemon \
     vendor/huawei/c8812e/proprietary/bin/cust:system/bin/cust \
     vendor/huawei/c8812e/proprietary/bin/hciattach:system/bin/hciattach \
@@ -114,108 +113,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8812e/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/huawei/c8812e/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/huawei/c8812e/proprietary/lib/libnl_2.so:system/lib/libnl_2.so \
-    vendor/huawei/c8812e/proprietary/bin/amploader:system/bin/amploader \
     vendor/huawei/c8812e/proprietary/bin/hwdevctlservice:system/bin/hwdevctlservice \
     vendor/huawei/c8812e/proprietary/lib/libhwdevctlservice.so:system/lib/libhwdevctlservice.so \
     vendor/huawei/c8812e/proprietary/lib/libhwdevctl_client.so:system/lib/libhwdevctl_client.so \
     vendor/huawei/c8812e/proprietary/bin/gps_check:system/bin/gps_check \
-    vendor/huawei/c8812e/proprietary/bin/pppd:system/bin/pppd \
-    vendor/huawei/c8812e/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
-    vendor/huawei/c8812e/proprietary/lib/libidl.so:system/lib/libidl.so
-
-    
-#    vendor/huawei/c8812e/proprietary/lib/hw/camera.msm7627a.so:system/lib/hw/camera.msm7627a.so \
-#    vendor/huawei/c8812e/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
-#    vendor/huawei/c8812e/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_imx074_video_hd.so:system/lib/libchromatix_imx074_video_hd.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_imx074_zsl.so:system/lib/libchromatix_imx074_zsl.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_imx091_default_video.so:system/lib/libchromatix_imx091_default_video.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_imx091_preview.so:system/lib/libchromatix_imx091_preview.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_imx091_video_hd.so:system/lib/libchromatix_imx091_video_hd.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_imx105_sunny_default_video.so:system/lib/libchromatix_imx105_sunny_default_video.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_imx105_sunny_preview.so:system/lib/libchromatix_imx105_sunny_preview.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_mt9e013_default_video.so:system/lib/libchromatix_mt9e013_default_video.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_mt9e013_preview.so:system/lib/libchromatix_mt9e013_preview.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_mt9e013_video_hfr.so:system/lib/libchromatix_mt9e013_video_hfr.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_mt9p017_default_video.so:system/lib/libchromatix_mt9p017_default_video.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_mt9p017_preview.so:system/lib/libchromatix_mt9p017_preview.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_ov2720_default_video.so:system/lib/libchromatix_ov2720_default_video.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_ov2720_hfr.so:system/lib/libchromatix_ov2720_hfr.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_ov2720_preview.so:system/lib/libchromatix_ov2720_preview.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_ov2720_zsl.so:system/lib/libchromatix_ov2720_zsl.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_ov5647_default_video.so:system/lib/libchromatix_ov5647_default_video.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_ov5647_preview.so:system/lib/libchromatix_ov5647_preview.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_ov5647_video_hfr.so:system/lib/libchromatix_ov5647_video_hfr.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_s5k3h2_default_video.so:system/lib/libchromatix_s5k3h2_default_video.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_s5k3h2_preview.so:system/lib/libchromatix_s5k3h2_preview.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_s5k3l1yx_default_video.so:system/lib/libchromatix_s5k3l1yx_default_video.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_s5k3l1yx_hfr_120fps.so:system/lib/libchromatix_s5k3l1yx_hfr_120fps.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_s5k3l1yx_hfr_60fps.so:system/lib/libchromatix_s5k3l1yx_hfr_60fps.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_s5k3l1yx_hfr_90fps.so:system/lib/libchromatix_s5k3l1yx_hfr_90fps.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_s5k3l1yx_preview.so:system/lib/libchromatix_s5k3l1yx_preview.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_s5k3l1yx_video_hd.so:system/lib/libchromatix_s5k3l1yx_video_hd.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_s5k3l1yx_zsl.so:system/lib/libchromatix_s5k3l1yx_zsl.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_s5k4e1_3_default_video.so:system/lib/libchromatix_s5k4e1_3_default_video.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_s5k4e1_3_preview.so:system/lib/libchromatix_s5k4e1_3_preview.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_s5k4e1_default_video.so:system/lib/libchromatix_s5k4e1_default_video.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k4e1_preview.so \
-#    vendor/huawei/c8812e/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
-#    vendor/huawei/c8812e/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
-#    vendor/huawei/c8812e/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
-#    vendor/huawei/c8812e/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
-#    vendor/huawei/c8812e/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
-#    vendor/huawei/c8812e/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
-#    vendor/huawei/c8812e/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
-#    vendor/huawei/c8812e/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
-#    vendor/huawei/c8812e/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
-#    vendor/huawei/c8812e/proprietary/lib/libmmhttpstack.so:system/lib/libmmhttpstack.so \
-#    vendor/huawei/c8812e/proprietary/lib/libmmiipstreammmihttp.so:system/lib/libmmiipstreammmihttp.so \
-#    vendor/huawei/c8812e/proprietary/lib/libmmipstreamaal.so:system/lib/libmmipstreamaal.so \
-#    vendor/huawei/c8812e/proprietary/lib/libmmipstreamnetwork.so:system/lib/libmmipstreamnetwork.so \
-#    vendor/huawei/c8812e/proprietary/lib/libmmipstreamsourcehttp.so:system/lib/libmmipstreamsourcehttp.so \
-#    vendor/huawei/c8812e/proprietary/lib/libmmipstreamutils.so:system/lib/libmmipstreamutils.so \
-#    vendor/huawei/c8812e/proprietary/lib/libmmitest.so:system/lib/libmmitest.so \
-#    vendor/huawei/c8812e/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-#    vendor/huawei/c8812e/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-#    vendor/huawei/c8812e/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-#    vendor/huawei/c8812e/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
-#    vendor/huawei/c8812e/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
-#    vendor/huawei/c8812e/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-#    vendor/huawei/c8812e/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
-#    vendor/huawei/c8812e/proprietary/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
-#    vendor/huawei/c8812e/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
-#    vendor/huawei/c8812e/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
-#    vendor/huawei/c8812e/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
-#    vendor/huawei/c8812e/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
-#    vendor/huawei/c8812e/proprietary/lib/libOmxEvrcHwDec.so:system/lib/libOmxEvrcHwDec.so \
-#    vendor/huawei/c8812e/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
-#    vendor/huawei/c8812e/proprietary/lib/libOmxQcelpHwDec.so:system/lib/libOmxQcelpHwDec.so \
-#    vendor/huawei/c8812e/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
-#    vendor/huawei/c8812e/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-#    vendor/huawei/c8812e/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
-#    vendor/huawei/c8812e/proprietary/lib/libOmxAmrDec.so:system/lib/libOmxAmrDec.so \
-#    vendor/huawei/c8812e/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
-#    vendor/huawei/c8812e/proprietary/lib/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
-#    vendor/huawei/c8812e/proprietary/lib/libOmxIttiamVdec.so:system/lib/libOmxIttiamVdec.so \
-#    vendor/huawei/c8812e/proprietary/lib/libOmxIttiamVenc.so:system/lib/libOmxIttiamVenc.so \
-#    vendor/huawei/c8812e/proprietary/lib/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so \
-#    vendor/huawei/c8812e/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
-#    vendor/huawei/c8812e/proprietary/lib/libOmxOn2Dec.so:system/lib/libOmxOn2Dec.so \
-#    vendor/huawei/c8812e/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
-#    vendor/huawei/c8812e/proprietary/lib/libOmxrv9Dec.so:system/lib/libOmxrv9Dec.so \
-#    vendor/huawei/c8812e/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
-#    vendor/huawei/c8812e/proprietary/lib/libOmxVp8Dec.so:system/lib/libOmxVp8Dec.so \
-#    vendor/huawei/c8812e/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
-#    vendor/huawei/c8812e/proprietary/lib/libzy_imgdenoise.so:system/lib/libzy_imgdenoise.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_mt9e013_sunny_default_video.so:system/lib/libchromatix_mt9e013_sunny_default_video.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_mt9e013_sunny_preview.so:system/lib/libchromatix_mt9e013_sunny_preview.so \
-#    vendor/huawei/c8812e/proprietary/lib/libchromatix_mt9e013_sunny_video_hfr.so:system/lib/libchromatix_mt9e013_sunny_video_hfr.so \
-#    vendor/huawei/c8812e/proprietary/lib/libcontrast.so:system/lib/libcontrast.so
-#    vendor/huawei/c8812e/proprietary/bin/mm-jpeg-enc-test-client:system/bin/mm-jpeg-enc-test-client \
-#    vendor/huawei/c8812e/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-#    vendor/huawei/c8812e/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-#    vendor/huawei/c8812e/proprietary/bin/mm-qcamera-testsuite-client:system/bin/mm-qcamera-testsuite-client \
-#    vendor/huawei/c8812e/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
-#    vendor/huawei/c8812e/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/huawei/c8812e/proprietary/bin/pppd:system/bin/pppd
