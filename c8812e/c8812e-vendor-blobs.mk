@@ -96,31 +96,31 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8812e/proprietary/bin/hwdevctlservice:system/bin/hwdevctlservice \
     vendor/huawei/c8812e/proprietary/lib/libhwdevctlservice.so:system/lib/libhwdevctlservice.so \
     vendor/huawei/c8812e/proprietary/lib/libhwdevctl_client.so:system/lib/libhwdevctl_client.so \
-	vendor/huawei/c8812e/proprietary//lib/libidl.so
-	vendor/huawei/c8812e/proprietary//lib/libqmi.so
-	vendor/huawei/c8812e/proprietary//lib/libqmi_client_qmux.so
-	vendor/huawei/c8812e/proprietary//lib/libqmiservices.so
-	vendor/huawei/c8812e/proprietary//lib/libadc.so
+	vendor/huawei/c8812e/proprietary/lib/libidl.so:system/lib/libidl.so \
+	vendor/huawei/c8812e/proprietary/lib/libqmi.so:system/lib/libqmi.so \
+	vendor/huawei/c8812e/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
+	vendor/huawei/c8812e/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
+	vendor/huawei/c8812e/proprietary/lib/libadc.so:system/lib/libadc.so
 
 # CAMERA
 PRODUCT_COPY_FILES += \
-	vendor/huawei/c8812e/proprietary/lib/hw/camera.msm7627a.so:system/lib/camera.msm7627a.so \
-	vendor/huawei/c8812e/proprietary//lib/libDivxDrm.so:system/lib/libDivxDrm.so \
-	vendor/huawei/c8812e/proprietary//lib/libgemini.so:system/lib/libgemini.so \
-	vendor/huawei/c8812e/proprietary//lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
-	vendor/huawei/c8812e/proprietary//lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
-	vendor/huawei/c8812e/proprietary//lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
-	vendor/huawei/c8812e/proprietary//lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
-	vendor/huawei/c8812e/proprietary//lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
-	vendor/huawei/c8812e/proprietary//lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
-	vendor/huawei/c8812e/proprietary//lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
-	vendor/huawei/c8812e/proprietary//lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
-	vendor/huawei/c8812e/proprietary//lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
-	vendor/huawei/c8812e/proprietary//lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-	vendor/huawei/c8812e/proprietary//lib/libmmosal.so:system/lib/libmmosal.so \
-	vendor/huawei/c8812e/proprietary//lib/libmmparser.so:system/lib/libmmparser.so \
-	vendor/huawei/c8812e/proprietary//lib/libmmstillomx.so:system/lib/libmmstillomx.so \
-	vendor/huawei/c8812e/proprietary//lib/liboemcamera.so:system/lib/liboemcamera.so
+	vendor/huawei/c8812e/proprietary/lib/hw/camera.msm7627a.so:system/lib/hw/camera.msm7627a.so \
+	vendor/huawei/c8812e/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
+	vendor/huawei/c8812e/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+	vendor/huawei/c8812e/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+	vendor/huawei/c8812e/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+	vendor/huawei/c8812e/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
+	vendor/huawei/c8812e/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
+	vendor/huawei/c8812e/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
+	vendor/huawei/c8812e/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+	vendor/huawei/c8812e/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
+	vendor/huawei/c8812e/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+	vendor/huawei/c8812e/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
+	vendor/huawei/c8812e/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+	vendor/huawei/c8812e/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+	vendor/huawei/c8812e/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+	vendor/huawei/c8812e/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
+	vendor/huawei/c8812e/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so
 
 # BIN
 PRODUCT_COPY_FILES += \
@@ -152,4 +152,4 @@ PRODUCT_COPY_FILES += \
 
 # ETC
 PRODUCT_COPY_FILES += \
-	vendor/huawei/c8812e/proprietary/etc/thermald.conf:system/etc/thermald.conf \
+	vendor/huawei/c8812e/proprietary/etc/thermald.conf:system/etc/thermald.conf
