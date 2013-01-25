@@ -100,7 +100,10 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/c8812e/proprietary/lib/libqmi.so:system/lib/libqmi.so \
 	vendor/huawei/c8812e/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
 	vendor/huawei/c8812e/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
-	vendor/huawei/c8812e/proprietary/lib/libadc.so:system/lib/libadc.so
+	vendor/huawei/c8812e/proprietary/lib/libadc.so:system/lib/libadc.so \
+	vendor/huawei/c8812e/proprietary/lib/libproduct_bt_check.so:system/lib/libproduct_bt_check.so \
+	vendor/huawei/c8812e/proprietary/lib/libwifidiag.so:system/lib/libwifidiag.so \
+	vendor/huawei/c8812e/proprietary/lib/libwifi_test.so:system/lib/libwifi_test.so
 
 # CAMERA
 PRODUCT_COPY_FILES += \
@@ -148,7 +151,11 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8812e/proprietary/bin/write_NV_114:system/bin/write_NV_114 \
     vendor/huawei/c8812e/proprietary/bin/gps_check:system/bin/gps_check \
     vendor/huawei/c8812e/proprietary/bin/pppd:system/bin/pppd \
-	vendor/huawei/c8812e/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon
+	vendor/huawei/c8812e/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+	vendor/huawei/c8812e/proprietary/bin/test_diag:system/bin/test_diag \
+	vendor/huawei/c8812e/proprietary/bin/atserver:system/bin/atserver \
+	vendor/huawei/c8812e/proprietary/bin/wlan_detect:system/bin/wlan_detect \
+	vendor/huawei/c8812e/proprietary/bin/thermald:system/bin/thermald
 
 # ETC
 PRODUCT_COPY_FILES += \
