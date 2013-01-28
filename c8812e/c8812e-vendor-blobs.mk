@@ -103,7 +103,8 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/c8812e/proprietary/lib/libadc.so:system/lib/libadc.so \
 	vendor/huawei/c8812e/proprietary/lib/libproduct_bt_check.so:system/lib/libproduct_bt_check.so \
 	vendor/huawei/c8812e/proprietary/lib/libwifidiag.so:system/lib/libwifidiag.so \
-	vendor/huawei/c8812e/proprietary/lib/libwifi_test.so:system/lib/libwifi_test.so
+	vendor/huawei/c8812e/proprietary/lib/libwifi_test.so:system/lib/libwifi_test.so \
+	vendor/huawei/c8812e/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so
 
 # CAMERA
 PRODUCT_COPY_FILES += \
@@ -156,7 +157,8 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/c8812e/proprietary/bin/atserver:system/bin/atserver \
 	vendor/huawei/c8812e/proprietary/bin/wlan_detect:system/bin/wlan_detect \
 	vendor/huawei/c8812e/proprietary/bin/thermald:system/bin/thermald \
-	vendor/huawei/c8812e/proprietary/bin/ath_supplicant:system/bin/ath_supplicant
+	vendor/huawei/c8812e/proprietary/bin/ath_supplicant:system/bin/ath_supplicant \
+	vendor/huawei/c8812e/proprietary/bin/wiperiface:system/bin/wiperiface
 
 # ETC
 PRODUCT_COPY_FILES += \
