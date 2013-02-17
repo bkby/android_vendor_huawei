@@ -93,7 +93,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8812e/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/huawei/c8812e/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/huawei/c8812e/proprietary/lib/libnl_2.so:system/lib/libnl_2.so \
-    vendor/huawei/c8812e/proprietary/bin/hwdevctlservice:system/bin/hwdevctlservice \
     vendor/huawei/c8812e/proprietary/lib/libhwdevctlservice.so:system/lib/libhwdevctlservice.so \
     vendor/huawei/c8812e/proprietary/lib/libhwdevctl_client.so:system/lib/libhwdevctl_client.so \
 	vendor/huawei/c8812e/proprietary/lib/libidl.so:system/lib/libidl.so \
@@ -128,6 +127,7 @@ PRODUCT_COPY_FILES += \
 
 # BIN
 PRODUCT_COPY_FILES += \
+    vendor/huawei/c8812e/proprietary/bin/hwdevctlservice:system/bin/hwdevctlservice \
     vendor/huawei/c8812e/proprietary/bin/abtfilt:system/bin/abtfilt \
     vendor/huawei/c8812e/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/c8812e/proprietary/bin/akmd8963:system/bin/akmd8963 \
@@ -159,9 +159,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/c8812e/proprietary/bin/thermald:system/bin/thermald \
 	vendor/huawei/c8812e/proprietary/bin/ath_supplicant:system/bin/ath_supplicant \
 	vendor/huawei/c8812e/proprietary/bin/wiperiface:system/bin/wiperiface \
-	vendor/huawei/c8812e/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
-	vendor/huawei/c8812e/proprietary/bin/hostapd:system/bin/hostapd \
-	vendor/huawei/c8812e/proprietary/bin/hostapd_cli:system/bin/hostapd_cli
+	vendor/huawei/c8812e/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd
 
 # ETC
 PRODUCT_COPY_FILES += \
