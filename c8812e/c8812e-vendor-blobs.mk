@@ -157,7 +157,6 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/c8812e/proprietary/bin/atserver:system/bin/atserver \
 	vendor/huawei/c8812e/proprietary/bin/wlan_detect:system/bin/wlan_detect \
 	vendor/huawei/c8812e/proprietary/bin/thermald:system/bin/thermald \
-	vendor/huawei/c8812e/proprietary/bin/ath_supplicant:system/bin/ath_supplicant \
 	vendor/huawei/c8812e/proprietary/bin/wiperiface:system/bin/wiperiface \
 	vendor/huawei/c8812e/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd
 
