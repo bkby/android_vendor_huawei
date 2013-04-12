@@ -42,6 +42,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/msm7x30-common/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
 	vendor/huawei/msm7x30-common/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
 	vendor/huawei/msm7x30-common/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+	vendor/huawei/msm7x30-common/proprietary/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
 	vendor/huawei/msm7x30-common/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
 	vendor/huawei/msm7x30-common/proprietary/libgsl.so:system/lib/libgsl.so \
 	vendor/huawei/msm7x30-common/proprietary/libOpenVG.so:system/lib/libOpenVG.so \
