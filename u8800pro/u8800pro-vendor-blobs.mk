@@ -43,7 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
 
 PRODUCT_COPY_FILES += \
-    vendor/huawei/u8800pro/proprietary/lib/hw/camera.msm7630_surf.so:system/lib/hw/camera.msm7630_surf.so \
+    vendor/huawei/u8800pro/proprietary/lib/hw/camera.msm7x30.so:system/lib/hw/camera.msm7x30.so \
     vendor/huawei/u8800pro/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/huawei/u8800pro/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/huawei/u8800pro/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
