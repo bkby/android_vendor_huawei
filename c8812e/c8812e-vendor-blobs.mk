@@ -96,19 +96,19 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8812e/proprietary/bin/hwdevctlservice:system/bin/hwdevctlservice \
     vendor/huawei/c8812e/proprietary/lib/libhwdevctlservice.so:system/lib/libhwdevctlservice.so \
     vendor/huawei/c8812e/proprietary/lib/libhwdevctl_client.so:system/lib/libhwdevctl_client.so \
-	vendor/huawei/c8812e/proprietary/lib/libidl.so:system/lib/libidl.so \
-	vendor/huawei/c8812e/proprietary/lib/libqmi.so:system/lib/libqmi.so \
-	vendor/huawei/c8812e/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
-	vendor/huawei/c8812e/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
-	vendor/huawei/c8812e/proprietary/lib/libadc.so:system/lib/libadc.so \
-	vendor/huawei/c8812e/proprietary/lib/libproduct_bt_check.so:system/lib/libproduct_bt_check.so \
-	vendor/huawei/c8812e/proprietary/lib/libwifidiag.so:system/lib/libwifidiag.so \
-	vendor/huawei/c8812e/proprietary/lib/libwifi_test.so:system/lib/libwifi_test.so \
-	vendor/huawei/c8812e/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so
+    vendor/huawei/c8812e/proprietary/lib/libidl.so:system/lib/libidl.so \
+    vendor/huawei/c8812e/proprietary/lib/libqmi.so:system/lib/libqmi.so \
+    vendor/huawei/c8812e/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
+    vendor/huawei/c8812e/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
+    vendor/huawei/c8812e/proprietary/lib/libadc.so:system/lib/libadc.so \
+    vendor/huawei/c8812e/proprietary/lib/libproduct_bt_check.so:system/lib/libproduct_bt_check.so \
+    vendor/huawei/c8812e/proprietary/lib/libwifidiag.so:system/lib/libwifidiag.so \
+    vendor/huawei/c8812e/proprietary/lib/libwifi_test.so:system/lib/libwifi_test.so \
+    vendor/huawei/c8812e/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so
 
 # CAMERA
 PRODUCT_COPY_FILES += \
-	vendor/huawei/c8812e/proprietary/lib/hw/camera.msm7627a.so:system/lib/hw/camera.msm7627a.so \
+	vendor/huawei/c8812e/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
 	vendor/huawei/c8812e/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
 	vendor/huawei/c8812e/proprietary/lib/libgemini.so:system/lib/libgemini.so \
 	vendor/huawei/c8812e/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
